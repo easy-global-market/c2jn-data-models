@@ -1,0 +1,36 @@
+{
+    "id": "urn:ngsi-ld:Road:ILM_92130_2385",
+    "type": "Road",
+    "name": {
+        "type": "Propety",
+        "value": "Rue Rouget de Lisle"
+    },
+    "description": {
+        "type": "Propety",
+        "value": "C2JN  Rue Rouget de Lisle vers Issy"
+    },
+    "length": {
+        "type": "Propety",
+        "value": 546,
+        "unitCode": "MTR"
+    },
+    "azimuth": {
+        "type": "Propety",
+        "value": 115,
+        "unitCode": "DD"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "MultiLineString",
+            "coordinates": [
+                [
+                    [2.2608688397, 48.8296783209], 
+                    [2.2608488398, 48.8296183209], 
+                    [2.2611588398, 48.8295483209]
+                ]
+            ]
+        }
+    },
+    "@context": ["https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"]
+}

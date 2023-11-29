@@ -1,0 +1,72 @@
+{
+    "id": "urn:ngsi-ld:TrafficFlowObserved:ILM_92130_2385",
+    "type": "TrafficFlowObserved",
+    "refRoad": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Road:ILM_92130_2385"
+    },
+    "temporalResolution": {
+        "type": "Property",
+        "value": "PT1H"
+    },
+    "averageVehicleSpeed": {
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 23.4,
+        "unitCode": "KMH"
+    },
+    "congestionIndex": {
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 0.0547008547,
+        "unitCode": "P1"
+    },
+    "flow": [{
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 97.0749588766,
+        "unitCode": "E50",
+        "datasetId": "urn:ngsi-ld:Dataset:All",
+        "vehicleType": {
+            "type": "Property",
+            "value": "All"
+        }
+    },{
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 86.8995985327,
+        "unitCode": "E50",
+        "datasetId": "urn:ngsi-ld:Dataset:LightVehicle",
+        "vehicleType": {
+            "type": "Property",
+            "value": "Light Vehicle"
+        }
+    },{
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 8.4055710091,
+        "unitCode": "E50",
+        "datasetId": "urn:ngsi-ld:Dataset:CommercialVehicle",
+        "vehicleType": {
+            "type": "Property",
+            "value": "Commercial Vehicle"
+        }
+    },{
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 1.7697893348,
+        "unitCode": "E50",
+        "datasetId": "urn:ngsi-ld:Dataset:HeavyWeight",
+        "vehicleType": {
+            "type": "Property",
+            "value": "Heavy Weight"
+        }
+    }],
+    "co2Equivalent": {
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 0.0113340287,
+        "unitCode": "TNE"
+    },
+    "@context": ["https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"]
+}

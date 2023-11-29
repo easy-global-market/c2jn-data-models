@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "azimuth": "https://smartdatamodels.org/dataModel.Transportation/azimuth",
+        "co2Equivalent": "https://smartdatamodels.org/dataModel.Transportation/co2Equivalent",
+        "congestionIndex": "https://smartdatamodels.org/dataModel.Transportation/congestionIndex",
+        "flow": "https://smartdatamodels.org/dataModel.Transportation/flow"
+    }
+}
