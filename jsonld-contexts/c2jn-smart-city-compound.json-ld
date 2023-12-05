@@ -1,0 +1,9 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather.jsonld",
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld",
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Weather/master/context.jsonld",
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Transportation/master/context.jsonld",
+    "https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/transportation-extensions.jsonld"
+  ]
+}
