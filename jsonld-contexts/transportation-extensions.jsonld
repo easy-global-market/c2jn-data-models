@@ -1,5 +1,7 @@
 {
     "@context": {
+        "BicycleCounter": "https://smartdatamodels.org/dataModel.Transportation/BicycleCounter",
+        "BicycleFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/BicycleFlowObserved",
         "azimuth": "https://smartdatamodels.org/dataModel.Transportation/azimuth",
         "co2Equivalent": "https://smartdatamodels.org/dataModel.Transportation/co2Equivalent",
         "congestionIndex": "https://smartdatamodels.org/dataModel.Transportation/congestionIndex",

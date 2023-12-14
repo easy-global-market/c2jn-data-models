@@ -1,0 +1,19 @@
+{
+    "id": "urn:ngsi-ld:BicycleFlowObserved:0EDE96AF-5F38-4905-901E-30CBE4B86B47",
+    "type": "BicycleFlowObserved",
+    "refBicycleCounter": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:BicycleCounter:0EDE96AF-5F38-4905-901E-30CBE4B86B47"
+    },
+    "temporalResolution": {
+        "type": "Property",
+        "value": "PT1H"
+    },
+    "flow": {
+        "type": "Property",
+        "observedAt": "2023-11-29T08:00:00Z",
+        "value": 97,
+        "unitCode": "E50"
+    },
+    "@context": ["https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"]
+}
