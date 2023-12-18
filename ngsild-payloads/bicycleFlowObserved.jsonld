@@ -5,6 +5,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:BicycleCounter:0EDE96AF-5F38-4905-901E-30CBE4B86B47"
     },
+    "refRoad": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Road:ILM_92130_2385"
+    },
     "temporalResolution": {
         "type": "Property",
         "value": "PT1H"
@@ -15,5 +19,7 @@
         "value": 97,
         "unitCode": "E50"
     },
-    "@context": ["https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"]
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"
+    ]
 }
