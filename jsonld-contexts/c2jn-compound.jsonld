@@ -3,7 +3,7 @@
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather.jsonld",
     "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld",
     "https://raw.githubusercontent.com/smart-data-models/dataModel.Weather/master/context.jsonld",
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.Transportation/master/context.jsonld",
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Transportation/936506e86bb694b500ca87e0a3be13c1aae1bd3e/context.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/transportation-extensions.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/dcat.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
