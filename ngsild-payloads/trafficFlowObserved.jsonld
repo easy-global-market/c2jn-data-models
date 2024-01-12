@@ -68,5 +68,5 @@
         "value": 0.0113340287,
         "unitCode": "TNE"
     },
-    "@context": ["https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"]
+    "@context": ["https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"]
 }

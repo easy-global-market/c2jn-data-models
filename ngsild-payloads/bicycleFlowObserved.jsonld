@@ -20,6 +20,6 @@
         "unitCode": "E50"
     },
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"
+        "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"
     ]
 }

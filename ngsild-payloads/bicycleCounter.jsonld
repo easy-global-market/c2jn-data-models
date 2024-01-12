@@ -16,5 +16,5 @@
             "coordinates": [2.26526, 48.83428]
         }
     },
-    "@context": ["https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-compound.jsonld"]
+    "@context": ["https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"]
 }
