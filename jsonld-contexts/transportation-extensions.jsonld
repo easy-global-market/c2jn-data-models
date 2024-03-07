@@ -3,6 +3,7 @@
         "BicycleCounter": "https://smartdatamodels.org/dataModel.Transportation/BicycleCounter",
         "BicycleFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/BicycleFlowObserved",
         "Road": "https://smartdatamodels.org/dataModel.Transportation/Road",
+        "TrafficFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/TrafficFlowObserved",
         "averageVehicleSpeed": "https://smartdatamodels.org/dataModel.Transportation/averageVehicleSpeed",
         "azimuth": "https://smartdatamodels.org/dataModel.Transportation/azimuth",
         "co2Equivalent": "https://smartdatamodels.org/dataModel.Transportation/co2Equivalent",
