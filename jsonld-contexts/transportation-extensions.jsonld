@@ -9,7 +9,7 @@
         "co2Equivalent": "https://smartdatamodels.org/dataModel.Transportation/co2Equivalent",
         "congestionIndex": "https://smartdatamodels.org/dataModel.Transportation/congestionIndex",
         "direction": "https://smartdatamodels.org/dataModel.Transportation/direction",
-        "flow": "https://smartdatamodels.org/dataModel.Transportation/flow",
+        "flow": "https://vocab.egm.io/flow",
         "length": "https://smartdatamodels.org/dataModel.Transportation/length",
         "refRoad": "https://smartdatamodels.org/dataModel.Transportation/refRoad"
     }
