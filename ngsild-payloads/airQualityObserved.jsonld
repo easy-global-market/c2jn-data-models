@@ -1,0 +1,53 @@
+{
+    "id": "urn:ngsi-ld:AirQualityObserved:ParcSuzanneLenglen",
+    "type": "AirQualityObserved",
+    "temporalResolution": {
+        "type": "Property",
+        "value": "PT1H"
+    },
+    "atmoIndex": {
+        "type": "Property",
+        "observedAt": "2024-03-26T10:00:00Z",
+        "value": 24,
+        "datasetId" : "urn:ngsi-ld:Dataset:AirParif"
+    },
+    "no2": {
+        "type": "Property",
+        "observedAt": "2024-03-26T10:00:00Z",
+        "value": 14.88,
+        "datasetId" : "urn:ngsi-ld:Dataset:AirParif",
+        "unitCode" : "GQ"
+    },
+    "o3": {
+        "type": "Property",
+        "observedAt": "2024-03-26T10:00:00Z",
+        "value": 86.12,
+        "datasetId" : "urn:ngsi-ld:Dataset:AirParif",
+        "unitCode" : "GQ"
+    },
+    "pm10": {
+        "type": "Property",
+        "observedAt": "2024-03-26T10:00:00Z",
+        "value": 23.4,
+        "datasetId" : "urn:ngsi-ld:Dataset:AirParif",
+        "unitCode" : "GQ"
+    },
+    "pm25": {
+        "type": "Property",
+        "observedAt": "2024-03-26T10:00:00Z",
+        "value": 10.31,
+        "datasetId" : "urn:ngsi-ld:Dataset:AirParif",
+        "unitCode" : "GQ"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                2.264912,
+                48.831725
+            ]
+        }
+    },
+    "@context": ["https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"]
+}
