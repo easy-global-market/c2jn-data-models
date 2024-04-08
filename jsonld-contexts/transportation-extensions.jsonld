@@ -1,16 +1,20 @@
 {
-    "@context": {
-        "BicycleCounter": "https://smartdatamodels.org/dataModel.Transportation/BicycleCounter",
-        "BicycleFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/BicycleFlowObserved",
-        "Road": "https://smartdatamodels.org/dataModel.Transportation/Road",
-        "TrafficFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/TrafficFlowObserved",
-        "averageVehicleSpeed": "https://smartdatamodels.org/dataModel.Transportation/averageVehicleSpeed",
-        "azimuth": "https://smartdatamodels.org/dataModel.Transportation/azimuth",
-        "co2Equivalent": "https://smartdatamodels.org/dataModel.Transportation/co2Equivalent",
-        "congestionIndex": "https://smartdatamodels.org/dataModel.Transportation/congestionIndex",
-        "direction": "https://smartdatamodels.org/dataModel.Transportation/direction",
-        "flow": "https://vocab.egm.io/flow",
-        "length": "https://smartdatamodels.org/dataModel.Transportation/length",
-        "refRoad": "https://smartdatamodels.org/dataModel.Transportation/refRoad"
-    }
+  "@context": {
+    "BicycleCounter": "https://smartdatamodels.org/dataModel.Transportation/BicycleCounter",
+    "BicycleFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/BicycleFlowObserved",
+    "Road": "https://smartdatamodels.org/dataModel.Transportation/Road",
+    "TrafficFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/TrafficFlowObserved",
+    "averageVehicleSpeed": "https://smartdatamodels.org/dataModel.Transportation/averageVehicleSpeed",
+    "azimuth": "https://smartdatamodels.org/dataModel.Transportation/azimuth",
+    "co2Equivalent": "https://smartdatamodels.org/dataModel.Transportation/co2Equivalent",
+    "congestionIndex": "https://smartdatamodels.org/dataModel.Transportation/congestionIndex",
+    "direction": "https://smartdatamodels.org/dataModel.Transportation/direction",
+    "flow": "https://vocab.egm.io/flow",
+    "length": "https://smartdatamodels.org/dataModel.Transportation/length",
+    "refRoad": "https://smartdatamodels.org/dataModel.Transportation/refRoad",
+    "predictedAverageVehicleSpeed": "https://vocab.egm.io/predictedAverageVehicleSpeed",
+    "predictedCo2Equivalent": "https://vocab.egm.io/predictedCo2Equivalent",
+    "predictedCongestionIndex": "https://vocab.egm.io/predictedCongestionIndex",
+    "predictedFlow": "https://vocab.egm.io/predictedFlow"
+  }
 }
