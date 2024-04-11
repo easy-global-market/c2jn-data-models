@@ -1,0 +1,49 @@
+{
+  "id": "urn:ngsi-ld:Equipment:673",
+  "type": "Equipment",
+  "name": {
+    "type": "Propety",
+    "value": "S1B15-SW-1"
+  },
+  "status": {
+    "type": "Propety",
+    "value": "Active",
+    "color": "#4caf50"
+  },
+  "equipmentType": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:EquipmentType:26"
+  },
+  "reference": {
+    "type": "Propety",
+    "value": "ASSET_000673"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "name": "Paris, île-de-France, France métropolitaine, France",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        2.2608688397,
+        48.8296783209
+      ]
+    }
+  },
+  "parent": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Equipment:672"
+  },
+  "geometryMatrix": {
+    "type": "Property",
+    "positionX": 0,
+    "positionY": 46,
+    "positionZ": 0,
+    "rotation": 0,
+    "sizeX": 10,
+    "sizeY": 1,
+    "sizeZ": 13
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"
+  ]
+}

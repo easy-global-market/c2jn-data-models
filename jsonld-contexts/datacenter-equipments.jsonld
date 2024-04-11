@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "Equipment": "https://vocab.egm.io/Equipment",
+    "EquipmentType": "https://vocab.egm.io/EquipmentType",
+    "color": "https://vocab.egm.io/color",
+    "equipmentType": "https://vocab.egm.io/equipmentType",
+    "reference": "https://vocab.egm.io/reference",
+    "parent": "https://vocab.egm.io/parent",
+    "geometryMatrix": "https://vocab.egm.io/geometryMatrix",
+    "positionX": "https://vocab.egm.io/positionX",
+    "positionY": "https://vocab.egm.io/positionY",
+    "positionZ": "https://vocab.egm.io/positionZ",
+    "rotation": "https://vocab.egm.io/rotationX",
+    "sizeX": "https://vocab.egm.io/sizeX",
+    "sizeY": "https://vocab.egm.io/sizeY",
+    "sizeZ": "https://vocab.egm.io/sizeZ"
+  }
+}
