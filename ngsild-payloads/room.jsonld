@@ -1,0 +1,39 @@
+{
+  "id": "urn:ngsi-ld:Room:2",
+  "type": "Room",
+  "name": {
+    "type": "Propety",
+    "value": "P01"
+  },
+  "status": {
+    "type": "Propety",
+    "value": "Active",
+    "color": {
+      "type": "Property",
+      "value": "#4caf50"
+    }
+  },
+  "reference": {
+    "type": "Propety",
+    "value": "ASSET_000002"
+  },
+  "parent": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:DataCenter:1"
+  },
+  "geometryMatrix": {
+    "type": "JsonProperty",
+    "json": {
+      "positionX": 0,
+      "positionY": 0,
+      "positionZ": 0,
+      "rotation": 0,
+      "sizeX": 144,
+      "sizeY": 20,
+      "sizeZ": 66
+    }
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}

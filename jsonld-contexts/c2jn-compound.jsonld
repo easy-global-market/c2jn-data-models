@@ -1,7 +1,6 @@
 {
   "@context": [
     "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
-    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/datacenter-equipments.jsonld",
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/weather.jsonld",
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/environment.jsonld",
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/transportation-extensions.jsonld",
