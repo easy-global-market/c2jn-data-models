@@ -4,7 +4,7 @@
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/weather.jsonld",
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/environment.jsonld",
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/transportation-extensions.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/dcat.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/dcat-compound.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
   ]
