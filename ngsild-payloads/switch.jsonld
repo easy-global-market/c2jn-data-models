@@ -1,0 +1,39 @@
+{
+  "id": "urn:ngsi-ld:Switch:315",
+  "type": "Switch",
+  "name": {
+    "type": "Propety",
+    "value": "S0B15-SW-1"
+  },
+  "status": {
+    "type": "Propety",
+    "value": "Active",
+    "color": {
+      "type": "Property",
+      "value": "#4caf50"
+    }
+  },
+  "reference": {
+    "type": "Propety",
+    "value": "ASSET_000315"
+  },
+  "parent": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Rack:318"
+  },
+  "geometryMatrix": {
+    "type": "JsonProperty",
+    "json": {
+      "positionX": 0,
+      "positionY": 46,
+      "positionZ": 0,
+      "rotation": 0,
+      "sizeX": 10,
+      "sizeY": 1,
+      "sizeZ": 13
+    }
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}

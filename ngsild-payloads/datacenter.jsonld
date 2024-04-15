@@ -1,0 +1,37 @@
+{
+  "id": "urn:ngsi-ld:DataCenter:1",
+  "type": "DataCenter",
+  "name": {
+    "type": "Propety",
+    "value": "Datacenter Paris"
+  },
+  "status": {
+    "type": "Propety",
+    "value": "Active",
+    "color": {
+      "type": "Property",
+      "value": "#4caf50"
+    }
+  },
+  "reference": {
+    "type": "Propety",
+    "value": "ASSET_000001"
+  },
+  "address": {
+    "type": "Propety",
+    "value": "Paris, île-de-France, France métropolitaine, France"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        2.2608688397,
+        48.8296783209
+      ]
+    }
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "DataCenter": "https://vocab.egm.io/DataCenter",
+    "Room": "https://vocab.egm.io/Room",
+    "Rack": "https://vocab.egm.io/Rack",
+    "PowerDistributionUnit": "https://vocab.egm.io/PowerDistributionUnit",
+    "Server": "https://vocab.egm.io/Server",
+    "Switch": "https://vocab.egm.io/Switch",
+    "color": "https://vocab.egm.io/color",
+    "reference": "https://vocab.egm.io/reference",
+    "parent": "https://vocab.egm.io/parent",
+    "geometryMatrix": "https://vocab.egm.io/geometryMatrix",
+    "address": "https://vocab.egm.io/address"
+  }
+}
