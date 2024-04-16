@@ -1,0 +1,78 @@
+{
+    "id": "urn:ngsi-ld:Dataset:Ecomob:TrafficFlowObserved",
+    "type": "Dataset",
+    "title": {
+        "type": "Property",
+        "value": "Données de trafic automobile"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Données de trafic automobile enrichies d'équivalent CO2 et indice de congestion"
+    },
+    "theme": [
+        {
+            "type": "Relationship",
+            "datasetId": "urn:ngsi-ld:Dataset:Theme:Mobility",
+            "object": "urn:ngsi-ld:Theme:Mobility"
+        }
+    ],
+    "catalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:Ecomob"
+    },
+    "publisher": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:Ecomob"
+    },
+    "landingPage": {
+        "type": "Property",
+        "value": "https://ecomob.co/"
+    },
+    "keyword": {
+        "type": "Property",
+        "value": ["car", "co2"]
+    },
+    "includedParameters": [
+        {
+            "type": "Property",
+            "value": "Vitesse moyenne des véhicules",
+            "unitCode": "KMH",
+            "datasetId": "urn:ngsi-ld:Dataset:includedParameters:averageVehicleSpeed",
+            "propertyName": {
+                "type": "Property",
+                "value": "averageVehicleSpeed"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Indice de congestion",
+            "unitCode": "P1",
+            "datasetId": "urn:ngsi-ld:Dataset:includedParameters:congestionIndex",
+            "propertyName": {
+                "type": "Property",
+                "value": "congestionIndex"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Flux de véhicule catégorisé selon le type de véhicule",
+            "unitCode": "E50",
+            "datasetId": "urn:ngsi-ld:Dataset:includedParameters:flow",
+            "propertyName": {
+                "type": "Property",
+                "value": "flow"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Équivalent CO2",
+            "unitCode": "TNE",
+            "datasetId": "urn:ngsi-ld:Dataset:includedParameters:co2Equivalent",
+            "propertyName": {
+                "type": "Property",
+                "value": "co2Equivalent"
+            }
+        }
+    ],
+    "@context": "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/twinPicks-compound.jsonld"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "urn:ngsi-ld:Catalog:Ecomob",
+    "type": "Catalog",
+    "title": {
+        "type": "Property",
+        "value": "Catalogue des données fournies par Ecomob"
+    },
+    "hasLogo": {
+        "type": "Property",
+        "value": "https://ecomob.co/wp-content/uploads/2022/04/Ecomob-logo-white.png"
+    },
+    "homepage": {
+        "type": "Property",
+        "value": "https://ecomob.co/"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Fournit des données de circulation automobile et vélo"
+    },
+    "publisher": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:Ecomob"
+    },
+    "@context": "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/twinPicks-compound.jsonld"
+}

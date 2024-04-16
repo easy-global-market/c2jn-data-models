@@ -1,0 +1,103 @@
+{
+    "id": "urn:ngsi-ld:DataService:TrafficFlowPrediction:3B8E3416-C6ED-40CB-A6F5-8DA08435BB34",
+    "type": "DataService",
+    "title": {
+        "type": "Property",
+        "value": "Modèle EGM de prédiction du trafic"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Prédiction des 7 prochains jours de trafic"
+    },
+    "algorithm": {
+        "type": "Property",
+        "value": "LSTM"
+    },
+    "mlFramework": {
+        "type": "Property",
+        "value": "TensorFlow"
+    },
+    "version": {
+        "type": "Property",
+        "value": 0.1,
+        "releaseNotes": {
+            "type": "Relationship",
+            "object": "https://github.com/mypredictionproject/releases/tag/0.1"
+        }
+    },
+    "isReferencedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:UseCaseConfig:SmartCity"
+    },
+    "inputAttributes": {
+        "type": "Property",
+        "value": ["flow", "averageVehicleSpeed", "congestionIndex"]
+    },
+    "outputAttributes": {
+        "type": "Property",
+        "value": ["predictedFlow", "predictedAverageVehicleSpeed", "predictedCongestionIndex"]
+    },
+    "endpointURL": {
+        "type": "Property",
+        "value": "http://127.0.0.1/thi"
+    },
+    "endpointDescription": {
+        "type": "Property",
+        "value": "Ce service requiert une entité pouvant fournir des données de flux, vitesse moyenne et indice de congestion d'un trafic automobile"
+    },
+    "imageSource": {
+        "type": "Property",
+        "value": "dataService_THI.png"
+    },
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    },
+    "accessRights": {
+        "type": "Property",
+        "value": "public"
+    },
+    "license": {
+        "type": "Property",
+        "value": "Apache-2.0"
+    },
+    "validationSchema": {
+        "type": "Property",
+        "value": "https://github.com/smart-data-models/incubated/blob/DCAT-AP/DataService/DataServiceDCAT-AP/schema.json"
+    },
+    "operationSpace": {
+        "type": "GeoProperty",
+        "coordinates": [
+            [
+                [ 2.2662018, 48.8357842 ],
+                [ 2.2605584, 48.829866 ],
+                [ 2.267618,  48.827733 ],
+                [ 2.2741626, 48.8279025 ],
+                [ 2.2809647, 48.8323379 ],
+                [ 2.2712658, 48.835643 ],
+                [ 2.2662018, 48.8357842 ]
+            ]
+        ]
+    },
+    "accessMechanism": {
+        "type": "Property",
+        "value": "Level3AccessMechanism"
+    },
+    "disseminationOrganisation": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Organisation:EGM"
+    },
+    "dissemination": {
+        "type": "Property",
+        "value": "Level2Dissemination"
+    },
+    "reputationOrganisation": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Organisation:EGM"
+    },
+    "reputation": {
+        "type": "Property",
+        "value": "Level1Reputation"
+    },
+    "@context": "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"
+}
