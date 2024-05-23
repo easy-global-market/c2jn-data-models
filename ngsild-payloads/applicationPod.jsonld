@@ -1,0 +1,35 @@
+{
+  "id": "urn:ngsi-ld:ApplicationPod:istio-ingressgateway-9c8b9b586-thl7x",
+  "type": "ApplicationPod",
+  "name": {
+    "type": "Property",
+    "value": "istio-ingressgateway-9c8b9b586-thl7x"
+  },
+  "cpuUtilization": {
+    "type": "Property",
+    "value": 0.06907686666721323
+  },
+  "networkTransmission": {
+    "type": "Property",
+    "value": 196.1
+  },
+  "networkReception": {
+    "type": "Property",
+    "value": 177.46666666666667
+  },
+  "ramUtilization": {
+    "type": "Property",
+    "value": 92.703125
+  },
+  "diskIo": {
+    "type": "Property",
+    "value": "0"
+  },
+  "deployedInNode": {
+    "type": "Relationship",
+    "value": "urn:ngsi-ld:Node:cube04"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}
