@@ -9,79 +9,39 @@
     "type": "Property",
     "value": "PT1H"
   },
-  "cpuUtilization": [
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:00:00Z",
-      "value": 0.06907686666721323,
-      "unitCode": "CORE"
-    },
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:05:00Z",
-      "value": 0.07907686666721322,
-      "unitCode": "CORE"
-    }
-  ],
-  "networkTransmission": [
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:00:00Z",
-      "value": 196.1,
-      "unitCode": "B"
-    },
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:05:00Z",
-      "value": 200.1,
-      "unitCode": "B"
-    }
-  ],
-  "networkReception": [
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:00:00Z",
-      "value": 177.46666666666667,
-      "unitCode": "B"
-    },
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:05:00Z",
-      "value": 181.46666666666667,
-      "unitCode": "B"
-    }
-  ],
-  "ramUtilization": [
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:00:00Z",
-      "value": 92.703125,
-      "unitCode": "MB"
-    },
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:05:00Z",
-      "value": 96.703125,
-      "unitCode": "MB"
-    }
-  ],
-  "diskIo": [
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:00:00Z",
-      "value": 14882.1333,
-      "unitCode": "KB"
-    },
-    {
-      "type": "Property",
-      "observedAt": "2024-05-24T08:05:00Z",
-      "value": 13774.2767,
-      "unitCode": "KB"
-    }
-  ],
-  "deployedInNode": {
+  "cpuUtilization": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 0.069,
+    "unitCode": "P1"
+  },
+  "networkTransmission": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 196.1,
+    "unitCode": "byte"
+  },
+  "networkReception": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 177.5,
+    "unitCode": "byte"
+  },
+  "ramUtilization": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 92.7,
+    "unitCode": "byte"
+  },
+  "diskIo": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 14882.1,
+    "unitCode": "byte"
+  },
+  "parent": {
     "type": "Relationship",
-    "object": "urn:ngsi-ld:Node:cube04"
+    "object": "urn:ngsi-ld:Server:313"
   },
   "@context": [
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
