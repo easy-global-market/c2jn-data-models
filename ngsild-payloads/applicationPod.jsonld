@@ -19,27 +19,27 @@
     "type": "Property",
     "observedAt": "2024-05-24T08:00:00Z",
     "value": 196.1,
-    "unitCode": "byte"
+    "unitCode": "AD"
   },
   "networkReception": {
     "type": "Property",
     "observedAt": "2024-05-24T08:00:00Z",
     "value": 177.5,
-    "unitCode": "byte"
+    "unitCode": "AD"
   },
   "ramUtilization": {
     "type": "Property",
     "observedAt": "2024-05-24T08:00:00Z",
     "value": 92.7,
-    "unitCode": "byte"
+    "unitCode": "AD"
   },
   "diskIo": {
     "type": "Property",
     "observedAt": "2024-05-24T08:00:00Z",
     "value": 14882.1,
-    "unitCode": "byte"
+    "unitCode": "AD"
   },
-  "parent": {
+  "deployedIn": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Server:313"
   },

@@ -17,6 +17,6 @@
     "networkReception": "https://vocab.egm.io/networkReception",
     "ramUtilization": "https://vocab.egm.io/ramUtilization",
     "diskIo": "https://vocab.egm.io/diskIo",
-    "deployedInNode": "https://vocab.egm.io/deployedInNode"
+    "deployedIn": "https://vocab.egm.io/deployedIn"
   }
 }
