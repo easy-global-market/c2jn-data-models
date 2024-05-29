@@ -1,0 +1,49 @@
+{
+  "id": "urn:ngsi-ld:ApplicationPod:istio-ingressgateway-9c8b9b586-thl7x",
+  "type": "ApplicationPod",
+  "name": {
+    "type": "Property",
+    "value": "istio-ingressgateway-9c8b9b586-thl7x"
+  },
+  "temporalResolution": {
+    "type": "Property",
+    "value": "PT1H"
+  },
+  "cpuUtilization": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 0.069,
+    "unitCode": "P1"
+  },
+  "networkTransmission": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 196.1,
+    "unitCode": "AD"
+  },
+  "networkReception": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 177.5,
+    "unitCode": "AD"
+  },
+  "ramUtilization": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 92.7,
+    "unitCode": "AD"
+  },
+  "diskIo": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 14882.1,
+    "unitCode": "AD"
+  },
+  "deployedIn": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Server:313"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}

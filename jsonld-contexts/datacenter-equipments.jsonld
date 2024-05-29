@@ -6,10 +6,17 @@
     "PowerDistributionUnit": "https://vocab.egm.io/PowerDistributionUnit",
     "Server": "https://vocab.egm.io/Server",
     "Switch": "https://vocab.egm.io/Switch",
+    "ApplicationPod": "https://vocab.egm.io/ApplicationPod",
     "color": "https://vocab.egm.io/color",
     "reference": "https://vocab.egm.io/reference",
     "parent": "https://vocab.egm.io/parent",
     "geometryMatrix": "https://vocab.egm.io/geometryMatrix",
-    "address": "https://vocab.egm.io/address"
+    "address": "https://vocab.egm.io/address",
+    "cpuUtilization": "https://vocab.egm.io/cpuUtilization",
+    "networkTransmission": "https://vocab.egm.io/networkTransmission",
+    "networkReception": "https://vocab.egm.io/networkReception",
+    "ramUtilization": "https://vocab.egm.io/ramUtilization",
+    "diskIo": "https://vocab.egm.io/diskIo",
+    "deployedIn": "https://vocab.egm.io/deployedIn"
   }
 }
