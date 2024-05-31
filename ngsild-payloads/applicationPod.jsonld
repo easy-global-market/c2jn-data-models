@@ -43,6 +43,10 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:Server:313"
   },
+  "applicationRef": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Application:APP123"
+  },
   "@context": [
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
   ]
