@@ -1,0 +1,27 @@
+{
+  "id": "urn:ngsi-ld:Application:APP123",
+  "type": "Application",
+  "name": {
+    "type": "Property",
+    "value": "APP123"
+  },
+  "deployedIn": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Server:313"
+  },
+  "criticality": {
+    "type": "property",
+    "value": "low"
+  },
+  "accessUrl": {
+    "type ": "property",
+    "value": "http://127.0.0.1/thi"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Active"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}
