@@ -10,11 +10,11 @@
     "object": "urn:ngsi-ld:Server:313"
   },
   "criticality": {
-    "type": "property",
+    "type": "Property",
     "value": "low"
   },
   "accessUrl": {
-    "type ": "property",
+    "type ": "Property",
     "value": "http://127.0.0.1/thi"
   },
   "status": {

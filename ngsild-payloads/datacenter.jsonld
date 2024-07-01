@@ -2,11 +2,11 @@
   "id": "urn:ngsi-ld:DataCenter:1",
   "type": "DataCenter",
   "name": {
-    "type": "Propety",
+    "type": "Property",
     "value": "Datacenter Paris"
   },
   "status": {
-    "type": "Propety",
+    "type": "Property",
     "value": "Active",
     "color": {
       "type": "Property",
@@ -14,11 +14,11 @@
     }
   },
   "reference": {
-    "type": "Propety",
+    "type": "Property",
     "value": "ASSET_000001"
   },
   "address": {
-    "type": "Propety",
+    "type": "Property",
     "value": "Paris, île-de-France, France métropolitaine, France"
   },
   "location": {
