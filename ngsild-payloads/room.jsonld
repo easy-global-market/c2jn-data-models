@@ -2,11 +2,11 @@
   "id": "urn:ngsi-ld:Room:2",
   "type": "Room",
   "name": {
-    "type": "Propety",
+    "type": "Property",
     "value": "P01"
   },
   "status": {
-    "type": "Propety",
+    "type": "Property",
     "value": "Active",
     "color": {
       "type": "Property",
@@ -14,7 +14,7 @@
     }
   },
   "reference": {
-    "type": "Propety",
+    "type": "Property",
     "value": "ASSET_000002"
   },
   "parent": {

@@ -2,11 +2,11 @@
   "id": "urn:ngsi-ld:Rack:318",
   "type": "Rack",
   "name": {
-    "type": "Propety",
+    "type": "Property",
     "value": "S0B15"
   },
   "status": {
-    "type": "Propety",
+    "type": "Property",
     "value": "Active",
     "color": {
       "type": "Property",
@@ -14,7 +14,7 @@
     }
   },
   "reference": {
-    "type": "Propety",
+    "type": "Property",
     "value": "ASSET_000318"
   },
   "parent": {
