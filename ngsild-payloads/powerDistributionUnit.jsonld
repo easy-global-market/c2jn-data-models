@@ -2,11 +2,11 @@
   "id": "urn:ngsi-ld:PowerDistributionUnit:317",
   "type": "PowerDistributionUnit",
   "name": {
-    "type": "Propety",
+    "type": "Property",
     "value": "S0B15-PDU-1"
   },
   "status": {
-    "type": "Propety",
+    "type": "Property",
     "value": "Active",
     "color": {
       "type": "Property",
@@ -14,7 +14,7 @@
     }
   },
   "reference": {
-    "type": "Propety",
+    "type": "Property",
     "value": "ASSET_000317"
   },
   "parent": {
