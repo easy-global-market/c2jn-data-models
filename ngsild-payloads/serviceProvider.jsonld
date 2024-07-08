@@ -1,0 +1,15 @@
+{
+  "id": "urn:ngsi-ld:ServiceProvider:serv123",
+  "type": "ServiceProvider",
+  "name": {
+    "type": "Property",
+    "value": "serv123"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Active"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "urn:ngsi-ld:PlatformProvider:plat123",
+  "type": "PlatformProvider",
+  "name": {
+    "type": "Property",
+    "value": "plat123"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Active"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}
