@@ -8,6 +8,9 @@
     "Switch": "https://vocab.egm.io/Switch",
     "ApplicationPod": "https://vocab.egm.io/ApplicationPod",
     "Application": "https://vocab.egm.io/Application",
+    "Customer": "https://vocab.egm.io/Customer",
+    "ServiceProvider": "https://vocab.egm.io/ServiceProvider",
+    "PlatformProvider": "https://vocab.egm.io/PlatformProvider",
     "color": "https://vocab.egm.io/color",
     "reference": "https://vocab.egm.io/reference",
     "parent": "https://vocab.egm.io/parent",
@@ -21,6 +24,7 @@
     "deployedIn": "https://vocab.egm.io/deployedIn",
     "applicationRef": "https://vocab.egm.io/applicationRef",
     "criticality": "https://vocab.egm.io/criticality",
-    "accessUrl": "https://vocab.egm.io/accessUrl"
+    "accessUrl": "https://vocab.egm.io/accessUrl",
+    "user": "https://vocab.egm.io/user"
   }
 }

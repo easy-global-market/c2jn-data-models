@@ -1,0 +1,15 @@
+{
+  "id": "urn:ngsi-ld:Customer:cust123",
+  "type": "Customer",
+  "name": {
+    "type": "Property",
+    "value": "cust123"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Active"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}
