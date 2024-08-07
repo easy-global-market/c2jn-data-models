@@ -18,6 +18,7 @@
     "predictedFlow": "https://vocab.egm.io/predictedFlow",
     "simulatedFlow": "https://vocab.egm.io/simulatedFlow",
     "simulatedCongestionIndex": "https://vocab.egm.io/simulatedCongestionIndex",
-    "vehicleType": "https://vocab.egm.io/vehicleType"
+    "vehicleType": "https://vocab.egm.io/vehicleType",
+    "processedBy": "https://vocab.egm.io/processedBy"
   }
 }
