@@ -126,6 +126,7 @@
       "value": 61.0107606665808,
       "observedAt": "2024-05-14T23:00:00Z",
       "unitCode": "E50",
+      "datasetId": "urn:ngsi-ld:Dataset:ZZZZ",
       "processedBy": "urn:ngsi-ld:DataService:ZZZZ",
       "vehicleType": {
         "type": "Property",
@@ -133,13 +134,14 @@
       }
     }
   ],
-  "simulatedCongestionIndex": {
+  "simulatedCongestionIndex": [{
     "type": "Property",
     "value": 0.8639665698468986,
     "observedAt": "2024-05-14T23:00:00Z",
     "unitCode": "P1",
+    "datasetId": "urn:ngsi-ld:Dataset:ZZZZ",
     "processedBy": "urn:ngsi-ld:DataService:ZZZZ"
-  },
+  }],
   "@context": [
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"
   ]
