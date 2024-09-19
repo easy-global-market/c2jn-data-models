@@ -1,0 +1,19 @@
+{
+  "id": "urn:ngsi-ld:Cluster:IMTBS",
+  "type": "Cluster",
+  "name": {
+    "type": "Property",
+    "value": "Cluster IMTBS"
+  },
+  "address": {
+    "type": "Property",
+    "value": "Telecom SudParis, France"
+  },
+  "datacenterRef": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:DataCenter:1"
+  },
+  "@context": [
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
+  ]
+}
