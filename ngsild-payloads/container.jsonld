@@ -1,9 +1,9 @@
 {
-  "id": "urn:ngsi-ld:ApplicationPod:istio-ingressgateway-9c8b9b586-thl7x",
-  "type": "ApplicationPod",
+  "id": "urn:ngsi-ld:Container:containerABC",
+  "type": "Container",
   "name": {
     "type": "Property",
-    "value": "istio-ingressgateway-9c8b9b586-thl7x"
+    "value": "containerABC"
   },
   "temporalResolution": {
     "type": "Property",
@@ -43,17 +43,9 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:Server:313"
   },
-  "clusterRef": {
+  "applicationPodRef": {
     "type": "Relationship",
-    "object": "urn:ngsi-ld:Cluster:IMTBS"
-  },
-  "applicationRef": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Application:APP123"
-  },
-  "user": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Customer:cust123"
+    "object": "urn:ngsi-ld:ApplicationPod:istio-ingressgateway-9c8b9b586-thl7x"
   },
   "@context": [
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-entreprise-agile-compound.jsonld"
