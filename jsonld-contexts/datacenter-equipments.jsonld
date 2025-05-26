@@ -30,6 +30,8 @@
     "user": "https://vocab.egm.io/user",
     "datacenterRef": "https://vocab.egm.io/datacenterRef",
     "clusterRef": "https://vocab.egm.io/clusterRef",
-    "applicationPodRef": "https://vocab.egm.io/applicationPodRef"
+    "applicationPodRef": "https://vocab.egm.io/applicationPodRef",
+    "carbonEmission": "https://vocab.egm.io/carbonEmission",
+    "powerConsumption": "https://vocab.egm.io/powerConsumption"
   }
 }

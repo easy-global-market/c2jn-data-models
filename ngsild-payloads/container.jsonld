@@ -39,6 +39,18 @@
     "value": 14882.1,
     "unitCode": "AD"
   },
+  "powerConsumption": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 0.024,
+    "unitCode": "KWT"
+  },
+  "carbonEmission": {
+    "type": "Property",
+    "observedAt": "2024-05-24T08:00:00Z",
+    "value": 0.008,
+    "unitCode": "KGM"
+  },
   "deployedIn": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Server:313"
