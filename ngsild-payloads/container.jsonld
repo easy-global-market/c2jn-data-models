@@ -42,7 +42,7 @@
   "powerConsumption": {
     "type": "Property",
     "observedAt": "2024-05-24T08:00:00Z",
-    "value": 0.025,
+    "value": 0.024,
     "unitCode": "KWT"
   },
   "carbonEmission": {
